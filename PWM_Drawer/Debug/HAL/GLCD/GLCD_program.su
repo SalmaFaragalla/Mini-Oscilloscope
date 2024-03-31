@@ -1,0 +1,16 @@
+GLCD_program.c:27:13:Delay	16	static
+GLCD_program.c:35:13:GLCD_Send	16	static
+GLCD_program.c:60:13:GLCD_SendCommand	16	static
+GLCD_program.c:71:6:GLCD_SendData	16	static
+GLCD_program.c:97:13:GLCD_GoToLine	16	static
+GLCD_program.c:104:13:GLCD_GoToColumn	16	static
+GLCD_program.c:134:13:GLCD_GoTo_Col_Line	16	static
+GLCD_program.c:142:13:GLCD_reverseString	32	static
+GLCD_program.c:157:6:GLCD_Init	8	static
+GLCD_program.c:190:6:GLCD_PrintChar	24	static
+GLCD_program.c:209:6:GLCD_PrintString	16	static
+GLCD_program.c:224:6:GLCD_PrintNum	48	static
+GLCD_program.c:260:6:GLCD_PrintFloat	88	static
+GLCD_program.c:304:6:GLCD_ClearLine	24	static
+GLCD_program.c:328:6:GLCD_DrawHLine	24	static
+GLCD_program.c:338:6:GLCD_DrawVLine	24	static

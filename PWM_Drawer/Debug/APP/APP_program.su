@@ -1,0 +1,10 @@
+APP_program.c:35:13:APP_IC_CalculateFreq	16	static
+APP_program.c:83:13:APP_IC_CalculateDuty	16	static
+APP_program.c:121:13:APP_GLCD_DrawPWM	24	static
+APP_program.c:140:6:APP_Init	8	static
+APP_program.c:150:6:APP_IC_Start	8	static
+APP_program.c:187:6:APP_PWM_Start	16	static
+APP_program.c:193:12:APP_IC_GetFreq_KHZ	8	static
+APP_program.c:199:5:APP_IC_GetPeriod_ms	16	static
+APP_program.c:205:5:APP_IC_GetDuty	4	static
+APP_program.c:210:6:APP_GLCD_Update	24	static
