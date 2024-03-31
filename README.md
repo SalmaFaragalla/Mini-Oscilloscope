@@ -14,8 +14,8 @@ With the graphical LCD we can display the following:
 - The period of the single cycle
 
 ## Components: 
-- STM32F103C6
-- GLCD
+- STM32F103C6 Microcontroller
+- Graphical LCD
 - Signal Generator (optional)
 
 
