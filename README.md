@@ -1,6 +1,27 @@
 # PWM-Drawer
-![image](https://github.com/SalmaFaragalla/PWM-Drawer/assets/142256837/12a5d2cd-e2c2-48f9-b2e3-5723fb521059)
 
-![image](https://github.com/SalmaFaragalla/PWM-Drawer/assets/142256837/70dfcde6-9bcb-4425-9b5c-9f31239177a8)
+## Description
+PWM drawer works as a mini oscilloscope that is responsible 
+for printing the frequency and the waveform of the generated PWM signal.
+The generated wave came from two sources, external sources 
+, or internal source of the Microcontroller of the project itself.
 
+## Specifications 
+With the graphical LCD we can display the following:
+- The shape of the generated PWM from internally or externally sources.
+- The frequency in KHz of the generated wave .
+- The duty cycle of the generated wave .
+- The period of the single cycle
+
+## Components: 
+- STM32F103C6
+- GLCD
+- Signal Generator (optional)
+
+
+## Schematic
 ![image](https://github.com/SalmaFaragalla/PWM-Drawer/assets/142256837/4d9df192-5324-4003-9048-fdc40d032ee1)
+
+## Video 
+https://www.youtube.com/watch?v=NuvwPJI4FoI
+
