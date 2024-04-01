@@ -9,7 +9,7 @@
 
 typedef enum
 {
-	GLCD_LINE_0 = 0x00,
+	GLCD_LINE_0 = 0UL,
 	GLCD_LINE_1,
 	GLCD_LINE_2,
 	GLCD_LINE_3,
