@@ -53,8 +53,8 @@ PWM_Drawer.bin \
 all: PWM_Drawer.elf secondary-outputs
 
 # Tool invocations
-PWM_Drawer.elf: $(OBJS) $(USER_OBJS) G:\NeurontiX\WS\PWM_Drawer\STM32F103C6TX_FLASH.ld
-	arm-none-eabi-gcc -o "PWM_Drawer.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"G:\NeurontiX\WS\PWM_Drawer\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PWM_Drawer.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+PWM_Drawer.elf: $(OBJS) $(USER_OBJS) G:\NeurontiX\Github\PWM-Drawer\PWM_Drawer\STM32F103C6TX_FLASH.ld
+	arm-none-eabi-gcc -o "PWM_Drawer.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"G:\NeurontiX\Github\PWM-Drawer\PWM_Drawer\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PWM_Drawer.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

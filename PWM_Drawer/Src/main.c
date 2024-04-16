@@ -22,8 +22,9 @@
 int main()
 {
 	APP_Init();
-	APP_PWM_Start(25, 800);
 	APP_IC_Start();
+	APP_PWM_Start(80, 500);
+	APP_GLCD_Print_Init();
 
 	while (1)
 	{

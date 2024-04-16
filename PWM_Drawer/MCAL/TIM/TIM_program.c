@@ -105,7 +105,7 @@ void TIM_IC_Start(volatile TIM_TypeDef *TIMx, TIM_CH_t TIM_CHx, u8 CCS_Direction
 	switch (TIM_CHx)
 	{
 	case TIM_CH1:
-		TIMx->CCMR1 |= CCS_Direction << CCMR1_CC1S;
+		TIMx->CCMR1 |= (CCS_Direction << CCMR1_CC1S);
 		if (TIM_IC_Edge == TIM_IC_RISING_EDGE)
 		{
 			CLR_BIT(TIMx->CCER, CCER_CC1P);
@@ -119,7 +119,7 @@ void TIM_IC_Start(volatile TIM_TypeDef *TIMx, TIM_CH_t TIM_CHx, u8 CCS_Direction
 		break;
 
 	case TIM_CH2:
-		TIMx->CCMR1 |= CCS_Direction << CCMR1_CC2S;
+		TIMx->CCMR1 |= (CCS_Direction << CCMR1_CC2S);
 		if (TIM_IC_Edge == TIM_IC_RISING_EDGE)
 		{
 			CLR_BIT(TIMx->CCER, CCER_CC2P);
@@ -128,7 +128,7 @@ void TIM_IC_Start(volatile TIM_TypeDef *TIMx, TIM_CH_t TIM_CHx, u8 CCS_Direction
 		{
 			SET_BIT(TIMx->CCER, CCER_CC2P);
 		}
-		SET_BIT(TIMx->DIER, DIER_CC2IE);
+		//SET_BIT(TIMx->DIER, DIER_CC2IE);
 		SET_BIT(TIMx->CCER, CCER_CC2E);
 		break;
 
