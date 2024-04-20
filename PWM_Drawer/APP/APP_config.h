@@ -12,11 +12,9 @@
 #define APP_TIM_PWM_TIMx (TIM2)
 #define APP_TIM_PWM_CHx (TIM_CH3)
 
-#define APP_TIM_IC1_TIMx (TIM3)
-#define APP_TIM_IC1_CHx (TIM_CH1)
-
-#define APP_TIM_IC2_TIMx (TIM1)
-#define APP_TIM_IC2_CHx (TIM_CH2)
+#define APP_TIM_IC_TIMx (TIM3)
+#define APP_TIM_IC_CH1 (TIM_CH1)
+#define APP_TIM_IC_CH2 (TIM_CH2)
 
 /*GLCD configurations-----------------------------------------------------*/
 #define APP_GLCD_LOW_LINE (GLCD_LINE_7)
