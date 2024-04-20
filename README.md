@@ -20,7 +20,7 @@ With the graphical LCD we can display the following:
 
 
 ## Schematic
-![image](https://github.com/SalmaFaragalla/PWM-Drawer/assets/142256837/4d9df192-5324-4003-9048-fdc40d032ee1)
+![image](https://github.com/SalmaFaragalla/PWM-Drawer/assets/142256837/a45ee514-d6b8-4644-904b-8de2d1933a4a)
 
 
 ## Working Examples
