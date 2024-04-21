@@ -1,6 +1,7 @@
 # PWM-Drawer
 
 ## Description
+This project was implemented as a part of NeuronetiX  Embedded systems Internship.
 PWM drawer works as a mini oscilloscope that is responsible 
 for printing the frequency and the waveform of the generated PWM signal.
 The generated wave came from two sources, external sources 
