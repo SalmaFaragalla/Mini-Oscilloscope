@@ -1,10 +1,9 @@
-/*
- * GPIO_private.h
- *
- *  Created on: Mar 29, 2024
- *      Author: Salma
+/**
+ ******************************************************************************
+ * @file    GPIO_private.h
+ * @author  Salma Faragalla
+ ******************************************************************************
  */
-
 #ifndef GPIO_GPIO_PRIVATE_H_
 #define GPIO_GPIO_PRIVATE_H_
 

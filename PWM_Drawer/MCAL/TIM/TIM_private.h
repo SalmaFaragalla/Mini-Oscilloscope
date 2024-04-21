@@ -1,8 +1,8 @@
-/*
- * TIM_private.h
- *
- *  Created on: Mar 29, 2024
- *      Author: Salma
+/**
+ ******************************************************************************
+ * @file    TIM_private.h
+ * @author  Salma Faragalla
+ ******************************************************************************
  */
 
 #ifndef TIM_TIM_PRIVATE_H_
@@ -85,7 +85,7 @@ typedef struct
 #define CCMR2_OC4M (12UL)
 #define CCMR2_OC4CE (15UL)
 
-// OCM Modes
+/* OCM Modes */
 #define OCM_TIMING (0UL)
 #define OCM_ACTIVE (1UL)
 #define OCM_INACTIVE (2UL)
@@ -119,7 +119,7 @@ typedef struct
 /* TIMx_BDTR */
 #define BDTR_MOE (15UL)
 
-
+/* @defgroup CCS_DIRECTION */
 #define CCS_OP (0UL)
 #define CCS_IP_DIRECT (1UL)
 #define CCS_IP_INDIRECT (2UL)

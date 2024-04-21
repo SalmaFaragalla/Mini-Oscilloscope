@@ -1,8 +1,9 @@
-/*
- * STD_TYPES.h
- *
- *  Created on: Mar 13, 2024
- *      Author: Salma
+/**
+ ******************************************************************************
+ * @file    STD_TYPES.h
+ * @author  Salma Faragalla
+ * @brief   Header file for standard data types.
+ ******************************************************************************
  */
 
 #ifndef STD_TYPES_H_

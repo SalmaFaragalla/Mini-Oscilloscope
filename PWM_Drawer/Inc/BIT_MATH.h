@@ -1,10 +1,10 @@
-/*
- * BIT_MATH.h
- *
- *  Created on: Mar 13, 2024
- *      Author: Salma
+/**
+ ******************************************************************************
+ * @file    BIT_MATH.h
+ * @author  Salma Faragalla
+ * @brief   Header file for bit manipulation macros.
+ ******************************************************************************
  */
-
 #ifndef BIT_MATH_H_
 #define BIT_MATH_H_
 

@@ -1,6 +1,6 @@
-GPIO_program.c:11:6:GPIO_SetPinDirSpeed	16	static
-GPIO_program.c:27:6:GPIO_SetPinValue	16	static
-GPIO_program.c:39:15:GPIO_GetPinValue	16	static
-GPIO_program.c:43:6:GPIO_SetPullup	16	static
-GPIO_program.c:49:6:GPIO_SetPortDirSpeed	24	static
-GPIO_program.c:61:6:GPIO_SetPortValue	16	static
+GPIO_program.c:21:6:GPIO_SetPinDirSpeed	16	static
+GPIO_program.c:45:6:GPIO_SetPinValue	16	static
+GPIO_program.c:64:15:GPIO_GetPinValue	16	static
+GPIO_program.c:75:6:GPIO_SetPullup	16	static
+GPIO_program.c:86:6:GPIO_SetPortDirSpeed	24	static
+GPIO_program.c:104:6:GPIO_SetPortValue	16	static

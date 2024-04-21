@@ -1,7 +1,10 @@
-/*
- * GLCD_config.h
+/**
+ ******************************************************************************
+ * @file    GLCD_config.h
+ * @author  Salma Faragalla
+ * @brief   Configuration file for GLCD module.
+ ******************************************************************************
  */
-
 #ifndef GLCD_GLCD_CONFIG_H_
 #define GLCD_GLCD_CONFIG_H_
 

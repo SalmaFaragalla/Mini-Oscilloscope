@@ -1,3 +1,10 @@
+/**
+ ******************************************************************************
+ * @file    GLCD_font.h
+ * @author  Salma Faragalla
+ * @ brief  Header file for GLCD font data
+ ******************************************************************************
+ */
 #ifndef _FONT_H
 #define _FONT_H
  	unsigned char Font[255][8] = {
