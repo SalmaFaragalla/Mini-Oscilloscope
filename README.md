@@ -1,11 +1,11 @@
-# PWM-Drawer
+# Mini-Oscilloscope
 
 ## Description
 This project was implemented as a part of NeuronetiX  Embedded systems Internship.
-PWM drawer works as a mini oscilloscope that is responsible 
-for printing the frequency and the waveform of the generated PWM signal.
-The generated wave came from two sources, external sources 
-, or internal source of the Microcontroller of the project itself.
+It was a hands-on internship where I designed and implemented a mini-oscilloscope using 
+STM32F103 microcontroller. This project provided a real-time visualization and measurement 
+of Pulse Width Modulation (PWM) signals from both internal and external sources. It displayed 
+the waveform shape, frequency, duty cycle, and period on a graphical LCD.
 
 ## Specifications 
 With the graphical LCD we can display the following:
